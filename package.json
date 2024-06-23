@@ -1,0 +1,19 @@
+{
+  "name": "task6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:chrome:headed": "cypress run --env configFile=headedChrome",
+    "test:chrome:headless": "cypress run --env configFile=headlessChrome",
+    "test:firefox:headed": "cypress run --env configFile=headedFirefox",
+    "test:firefox:headless": "cypress run --env configFile=headlessFirefox"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.12.0"
+  }
+}
